@@ -10,7 +10,7 @@ readme = "README.md"
 requires-python = ">=3.8"
 license = { text = "MIT" }
 authors = [
-    { name = "mayuri" }
+    { name = "mayuriphad", email = "mayuriphad656@gmail.com" }
 ]
 dependencies = [
     "fastapi>=0.100.0",

@@ -51,5 +51,5 @@ Use `_page` and `_limit` to paginate results:
 GET /posts?_page=1&_limit=5
 ```
 
-## Author
-Built by Mayuri.
+## 👤 Author
+Built with ❤️ by **mayuriphad** (mayuriphad656@gmail.com).
