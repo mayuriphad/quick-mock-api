@@ -1,0 +1,45 @@
+Metadata-Version: 2.4
+Name: quick-mock-api
+Version: 0.1.0
+Summary: A zero-config REST API mock server based on JSON files, inspired by json-server.
+Author-email: Your Name <your.email@example.com>
+License: MIT
+Project-URL: Homepage, https://github.com/yourusername/quick-mock-api
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: fastapi>=0.100.0
+Requires-Dist: uvicorn>=0.23.0
+Requires-Dist: tinydb>=4.8.0
+
+# quick-mock-api
+
+A zero-config REST API mock server for Python. Get a full fake REST API with zero coding in less than 30 seconds (seriously), just by providing a JSON file. Inspired by the legendary Node.js `json-server`.
+
+## Installation
+
+```bash
+pip install quick-mock-api
+```
+
+## Usage
+
+Create a `db.json` file with some data:
+
+```json
+{
+  "posts": [
+    { "id": 1, "title": "hello world" }
+  ],
+  "comments": [
+    { "id": 1, "body": "some comment", "postId": 1 }
+  ]
+}
+```
+
+Start the API:
+
+```bash
+mock-api db.json
+```
+
+Now you have a full fake REST API running at `http://localhost:8000`!

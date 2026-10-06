@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "quick-mock-api"
+version = "0.1.0"
+description = "A zero-config REST API mock server based on JSON files, inspired by json-server."
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "MIT" }
+authors = [
+    { name = "Your Name", email = "your.email@example.com" }
+]
+dependencies = [
+    "fastapi>=0.100.0",
+    "uvicorn>=0.23.0",
+    "tinydb>=4.8.0",
+]
+
+[project.scripts]
+mock-api = "quick_mock_api.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/yourusername/quick-mock-api"

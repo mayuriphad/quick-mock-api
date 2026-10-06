@@ -1,0 +1,2 @@
+[console_scripts]
+mock-api = quick_mock_api.cli:main
