@@ -30,3 +30,26 @@ mock-api db.json
 ```
 
 Now you have a full fake REST API running at `http://localhost:8000`!
+
+## Advanced Features
+
+### Filtering
+You can filter results using query parameters:
+```bash
+GET /posts?title=hello world
+```
+
+### Sorting
+Use `_sort` and `_order` (asc or desc) to sort results:
+```bash
+GET /posts?_sort=id&_order=desc
+```
+
+### Pagination
+Use `_page` and `_limit` to paginate results:
+```bash
+GET /posts?_page=1&_limit=5
+```
+
+## Author
+Built by Mayuri.
