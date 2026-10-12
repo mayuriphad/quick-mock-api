@@ -1,5 +1,9 @@
 # quick-mock-api
 
+[![PyPI](https://img.shields.io/pypi/v/quick-mock-api.svg)](https://pypi.org/project/quick-mock-api/)
+[![Downloads](https://img.shields.io/pypi/dm/quick-mock-api.svg)](https://pypistats.org/packages/quick-mock-api)
+[![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+
 A zero-config REST API mock server for Python. Get a full fake REST API with zero coding in less than 30 seconds (seriously), just by providing a JSON file. Inspired by the legendary Node.js `json-server`.
 
 ## Installation
